@@ -1,6 +1,6 @@
 import { connectToDatabase } from '../../lib/db.js';
-import Page from '../../lib/Page.js';
-import ContactSubmission from '../../lib/ContactSubmission.js';
+import { Page } from '../../lib/Page.js';
+import { ContactSubmission } from '../../lib/ContactSubmission.js';
 
 export const handler = async (event) => {
   if (event.httpMethod !== 'POST') return { statusCode: 405, body: '[]' };

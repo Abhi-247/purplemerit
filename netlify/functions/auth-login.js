@@ -1,5 +1,5 @@
 import { connectToDatabase } from '../../lib/db.js';
-import User from '../../lib/User.js';
+import { User } from '../../lib/User.js';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import cookie from 'cookie';

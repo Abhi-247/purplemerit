@@ -1,5 +1,5 @@
 import { connectToDatabase } from '../../lib/db.js';
-import Page from '../../lib/Page.js';
+import { Page } from '../../lib/Page.js';
 
 export const handler = async (event) => {
   if (event.httpMethod !== 'GET') return { statusCode: 405, body: '[]' };

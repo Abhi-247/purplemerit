@@ -1,5 +1,5 @@
 import { connectToDatabase } from '../../lib/db.js';
-import Page from '../../lib/Page.js';
+import { Page } from '../../lib/Page.js';
 import jwt from 'jsonwebtoken';
 
 const getUserIdFromEvent = (event) => {
